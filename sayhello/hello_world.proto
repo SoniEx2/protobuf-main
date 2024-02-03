@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message Hello {
+  string hello_target = 1;
+  bool version = 100000;
+  bool help = 100001;
+}
